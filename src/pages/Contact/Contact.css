@@ -1,0 +1,72 @@
+.contact {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Helvetica Neue Light'; 
+}
+
+.contact-row {
+    padding: 20px; 
+    height: 70vh; 
+}
+
+.contact-col {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item {
+    height: 9vw; 
+    width: 9vw; 
+    border-radius: 20px;
+    transition: 0.2s ease;
+    margin: 6px; 
+}
+
+.active-contact-item {
+    height: 10.5vw; 
+    width: 10.5vw; 
+    border-radius: 20px; 
+    transition: 0.2s ease;
+    margin: 6px; 
+}
+
+.unactive-contact-item {
+    height: 8.5vw; 
+    width: 8.5vw; 
+    border-radius: 20px;
+    transition: 0.2s ease; 
+    margin: 6px; 
+}
+
+.contact-block {
+    height: 8.5vw;
+    width: 8.5vw; 
+    border-radius: 20px; 
+    background-color: black;
+    margin: 6px; 
+}
+
+.contact-phone {
+    background-image: url('https://i.imgur.com/pjVi6ai.png');
+    background-size: contain;
+}
+
+.contact-email {
+    background-image: url('https://i.imgur.com/0YDE2hS.png');
+    background-size: contain;
+}
+
+.contact-linkedIn {
+    background-image: url('https://i.imgur.com/BaW1upT.png');
+    background-size: contain;
+}
+
+.contact-insta {
+    background-image: url('https://i.imgur.com/yDpmEuK.png');
+    background-size: contain;
+}
+
+

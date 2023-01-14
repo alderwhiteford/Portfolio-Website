@@ -1,0 +1,54 @@
+.offset-left {
+    width: 100%; 
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+.offset-left-photo {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0; 
+}
+
+.offset-left-photo > img {
+    width: 90%; 
+    height: 40vw; 
+    object-fit: cover;
+}
+
+.photo-big > img {
+    width: 95%; 
+    height: 40vw; 
+    object-fit: cover;
+}
+
+.photo-even > img {
+    width: 93%; 
+    height: 30vw; 
+    object-fit: cover; 
+}
+
+@media screen and (max-width: 991px) {
+    .offset-left-photo {
+        margin-bottom: 2vh; 
+    }
+
+    .offset-left-photo > img {
+        width: 97.5%; 
+        height: 25vh; 
+        object-fit: cover;
+    }
+    
+    .offset-left {
+        padding-top: 0;
+        padding-bottom: 0; 
+    }
+
+    .photo-big > img {
+        width: 95%; 
+        height: 25vh;  
+        object-fit: cover;
+    }
+}

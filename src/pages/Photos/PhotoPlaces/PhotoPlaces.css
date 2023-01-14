@@ -1,0 +1,35 @@
+.places-title {
+    display: flex;
+    justify-content: center;
+}
+
+.places-title-1 {
+    font-size: 35px; 
+    font-family: 'Helvetica Neue Thin'; 
+    margin-top: 20px; 
+}
+
+.places-title-2 {
+    margin-left: 10px; 
+    font-size: 35px; 
+    font-family: 'Helvetica Neue Light'; 
+    margin-top: 20px; 
+}
+
+@media screen and (max-width: 991px) {
+    .places-title-1 {
+        font-size: 20px; 
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .places-title-2 {
+        font-size: 20px; 
+        margin-bottom: 20px; 
+        margin-top: 10px; 
+    }
+    
+    .places-photos {
+        padding: 0; 
+    }
+}

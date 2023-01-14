@@ -1,0 +1,42 @@
+.container-fluid {
+    margin: 0; 
+    padding: 0; 
+}
+
+.first-work {
+    width: 100vw; 
+    margin: 0; 
+    padding: 0; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.work-col {
+    display: flex;
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+    .container-fluid {
+        margin: 0; 
+        padding: 0; 
+    }
+    
+    .first-work {
+        width: 100vw; 
+        margin: 0; 
+        padding: 0; 
+        overflow: hidden;
+    }
+    
+    .work-col {
+        display: flex;
+        position: relative; 
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px; 
+    }
+}
