@@ -1,0 +1,37 @@
+import React from 'react'
+import './PhotoPlaces.css'
+import PhotoThreeEven from '../PhotoStyling/PhotoThreeEven'
+import PhotoTwoEven from '../PhotoStyling/PhotoTwoEven'
+import PhotoTwoOffsetLeft from '../PhotoStyling/PhotoTwoOffsetLeft'
+import PhotoTwoOffsetRight from '../PhotoStyling/PhotoTwoOffsetRight'
+
+function PhotoPlaces() {
+  return (
+    <div className='container-fluid places-photo'>
+        <div className='places-title'>
+            <h1 className='places-title-1'>Photography</h1>
+            <h1 className='places-title-2'>- Places</h1>
+        </div>
+        <PhotoThreeEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC08835.jpg?alt=media&token=69c2deb9-ccf7-44f8-895d-3f4bc5a5e26b'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC08863.jpg?alt=media&token=16b99e86-8187-4760-a448-dbb7e560eb1c'} photo3={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC03780.jpg?alt=media&token=95d01cde-c093-473b-b98c-a99a74ff29dd'}/>
+        <PhotoTwoOffsetRight photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC09021.jpg?alt=media&token=e902a294-5215-4c84-808c-cd09a70c9691'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC08971.jpg?alt=media&token=3ecb3911-29ed-4651-ad51-d7f7666e6329'}/>
+        <PhotoTwoEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC08960.jpg?alt=media&token=cd59480f-5092-4412-8d12-7a2c3a4c346d'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC08927.jpg?alt=media&token=d202bbda-1e13-4966-b76e-7c2d8374f63d'}/>
+        <PhotoTwoOffsetLeft photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC08868.jpg?alt=media&token=a14cc3d3-f434-4cc7-b445-3aaa09a7ebcc'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC09066-2.jpg?alt=media&token=2c700b57-3ceb-4713-a660-1ba48af0cdb9'}/>
+        <PhotoTwoOffsetRight photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC08985.jpg?alt=media&token=5a4f0bb4-dda7-4ebf-9c3a-1b76a35b3a29'} photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC09206.jpg?alt=media&token=439c9941-a2ee-415c-9ee0-1b43d2c8652c'}/>
+        <PhotoTwoEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_7398.jpg?alt=media&token=13b2bd0d-47df-47d2-b45e-e3db6bb01596'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_7686-2.jpg?alt=media&token=d07d59d3-742c-4b98-886d-56747c228df3'}/>
+        <PhotoTwoOffsetLeft photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_7374.jpg?alt=media&token=1b352406-a3a9-4fd5-a638-f5d83f2085d8'} photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_7606.jpg?alt=media&token=cacbd535-7481-4f93-974e-97a80e17bf87'}/>
+        <PhotoTwoOffsetRight photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/3DDA54E0-C999-439A-B7E2-810BA40E4414DSC_4102.jpg?alt=media&token=d8bba563-3124-40e6-b20e-2fb3f9a934a8'} photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/A6B3ECAC-63E5-4747-BF22-49F69C788D87DSC_4117.jpg?alt=media&token=e0ba4782-5749-4b91-bd2b-73812653f4d5'}/>
+        <PhotoThreeEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/Eiffel%2520Collage.jpg?alt=media&token=9c16174e-904a-466e-8965-89a8e375e514'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/8ED04D11-E73E-4513-9D57-93572D8F45A0DSC_5408.jpg?alt=media&token=fc7fedb9-2235-48dc-ba02-45d4cf06d2e8'} photo3={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AD54D126-6A66-406A-B0B9-114FE2D6764E.jpeg?alt=media&token=a3cddb0a-ac1f-44e9-90f8-015dc77b00b6'}/>
+        <PhotoTwoEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/95D0BA31-C0CD-4D26-A7ED-23EAB3F1DAAEDSC_3395.jpg?alt=media&token=bdfe373a-925a-4dc8-b461-c7780100011d'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/225430DC-3BF3-41DC-8512-3B691BE41783.jpeg?alt=media&token=93bd7a20-746b-463b-80a3-d352a6d96b7a'}/>
+        <PhotoTwoEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/3A542A72-65C9-49CC-A55C-4EBE47261E15DSC_5191.jpg?alt=media&token=f01219e4-6fe8-4fa2-ba9a-c45cc4cb3f68'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/69974EF2-A46D-4EB7-86ED-0E28ADCA57EA.jpeg?alt=media&token=c7ba52ed-b76a-4883-8663-c375d6710cd1'}/>
+        <PhotoTwoOffsetRight photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/_DSC5350.JPG?alt=media&token=4c45c66c-37a5-41eb-9c4c-aaf6a3f70700'} photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/_DSC4717.JPG?alt=media&token=a728ac15-fe12-4808-90fc-043e8b65a235'}/>
+        <PhotoTwoEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_7549.jpg?alt=media&token=bc9369a8-7242-4985-9ce6-de7c3be0c984'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_7639.jpeg?alt=media&token=a4f8088a-5566-48f9-8af1-fed2bdbe8327'}/>
+        <PhotoTwoEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/Screen%20Shot%200030-04-25%20at%2013.03.36.png?alt=media&token=7879ace0-72e6-4018-b7c5-068318a5e02e'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/Gorge%2520Collage1.jpg?alt=media&token=7ca426bc-2bbb-4beb-aaba-3c1a56009e04'}/>
+        <PhotoTwoOffsetLeft photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_7839.jpg?alt=media&token=3ec32d30-1f57-4fab-b9bc-d509f1120a58'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_9285.JPG?alt=media&token=94a0bb89-5edd-4c39-b4a6-abfad02dc406'}/>
+        <PhotoTwoEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_3073.JPG?alt=media&token=67827458-dcdd-4bad-9f56-f56de57da0cd'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_2189.JPG?alt=media&token=de318450-d2af-4fb2-8133-ec4b2f1389d5'}/>
+        <PhotoTwoEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_2988.jpg?alt=media&token=57c3c806-ef36-4573-b281-d9eb15755f54'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC_2745.jpg?alt=media&token=1b2f6726-3f9e-4412-a26f-81303c41ab17'}/>
+        <PhotoTwoOffsetRight photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DJI_0166.JPG?alt=media&token=59d784b3-07fb-473a-a421-fea7cda9f4ee'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DJI_0151.JPG?alt=media&token=ec02e9df-ec33-44ab-aeb4-f1b7fc3297c0'}/>
+    </div>
+  )
+}
+
+export default PhotoPlaces

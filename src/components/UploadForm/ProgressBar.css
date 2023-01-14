@@ -1,0 +1,13 @@
+.progress-bar {
+    height: 20px; 
+    background: var(--primary); 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    background-color: #4fc3f7; 
+}
+
+.progress-bar-outer {
+    display: block; 
+    width: 20vw; 
+    margin-left: 40vw; 
+}

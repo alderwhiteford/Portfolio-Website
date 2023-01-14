@@ -1,0 +1,64 @@
+.photo-form {
+    margin-top: 20; 
+    width: 100vw; 
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.photo-upload-text {
+    font-family: 'Helvetica Neue Light'
+}
+
+.input-button {
+    display: none; 
+}
+
+.custom-input-button {
+    width: 100px; 
+    height: 50px; 
+    justify-content: center;
+    background-color: #1a1a1a;
+    color: #FAF9F6; 
+    border-radius: 5px; 
+    background-size: contain;
+    margin-right: 5px; 
+    margin-left: 5px; 
+    cursor: pointer; 
+    transition: 0.1s ease-in;
+}
+
+.custom-input-button:hover {
+    background-color: #D3D3D3; 
+    color: #1a1a1a; 
+}
+
+.output {
+    font-family: 'Helvetica Neue Light';
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block; 
+}
+
+.progress-image {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    width: 20vw; 
+    box-shadow: 0.75vw 0.75vw 40px #1a1a1a;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        width: 15vw; 
+    }
+    100% {
+        opacity: 1;
+        width: 20vw; 
+     }
+}

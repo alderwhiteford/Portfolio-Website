@@ -1,0 +1,45 @@
+.container-fluid {
+    margin: 0; 
+    padding: 0; 
+
+}
+
+.photos-col {
+    display: flex;
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 100vw; 
+    margin: 0; 
+    padding: 0; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.photo-category {
+    width: 45vw;
+    height: 40vh; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a; 
+}
+
+.photo-link {
+    text-decoration: none;
+    color: #FAF9F6; 
+    font-family: 'Helvetica Neue Light'; 
+    font-size: 30px; 
+}
+
+.places {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/3DDA54E0-C999-439A-B7E2-810BA40E4414DSC_4102.jpg?alt=media&token=d8bba563-3124-40e6-b20e-2fb3f9a934a8');
+    object-fit: contain; 
+}
+
