@@ -1,10 +1,11 @@
 import React from 'react'
 import { useState } from 'react';
-import Footer from '../../components/Footer/Footer';
+import {NavLink} from 'react-router-dom';
 import './About.css'
 
 function About() {
   const [contactHovered, setContactHover] = useState('off'); 
+  const [resumeHovered, setResumeHover] = useState('off')
 
   return (
     <div className="container-fluid about">
@@ -13,11 +14,20 @@ function About() {
           <div className='information-container'>
             <h1 className='about-intro'>Hey, I'm Alder Whiteford.</h1>
             <div className='about-info'>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              <p> I am a third-year, computer science and finance student at Northeastern University. Please pardon my website's dust at the moment! The project is currently under development, and will be complete before you know it. In the meantime grab yourself a cup of coffee, checkout my resume, and (of course) connect with me on LinkedIn!</p>
+              <p>I was born and raised in Portland, OR &#127794; and am currently based in Boston, MA &#129752;.</p>
             </div>
             <div className="about-contact">
               <img className={contactHovered === 'on' ? 'contact-hover' : ""}src="https://cdn-icons-png.flaticon.com/512/66/66831.png"></img>
-              <a className='link-hover' href='/contact' onMouseEnter={() => setContactHover('on')} onMouseLeave={() => setContactHover('off')}>Get in Touch</a>
+              <NavLink to={'/contact'} className='link-hover' onMouseEnter={() => setContactHover('on')} onMouseLeave={() => setContactHover('off')}>
+                Get in touch
+              </NavLink>          
+            </div>
+            <div className="about-resume">
+              <img className={resumeHovered === 'on' ? 'resume-hover' : ""} src='https://i.imgur.com/stFJBB5.png'></img>
+              <a href='https://drive.google.com/file/d/1NpieXRQBrUJTu1-QSnGK_2EOReVAZhSz/view?usp=sharing' target='_blank' className='link-hover' onMouseEnter={() => setResumeHover('on')} onMouseLeave={() => setResumeHover('off')}>
+                Resume
+              </a>  
             </div>
           </div>
         </div>
@@ -28,7 +38,6 @@ function About() {
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   )
 }
