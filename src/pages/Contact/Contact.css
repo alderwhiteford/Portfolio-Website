@@ -11,10 +11,20 @@
     height: 70vh; 
 }
 
-.contact-col {
+.contact-col-right {
     display: flex; 
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    padding: 0; 
+    height: 70vh; 
+}
+
+.contact-col-left {
+    display: flex; 
+    align-items: center;
+    justify-content: right; 
+    padding: 0;
+    height: 70vh; 
 }
 
 .contact-item {
@@ -41,14 +51,6 @@
     margin: 6px; 
 }
 
-.contact-block {
-    height: 8.5vw;
-    width: 8.5vw; 
-    border-radius: 20px; 
-    background-color: black;
-    margin: 6px; 
-}
-
 .contact-phone {
     background-image: url('https://i.imgur.com/pjVi6ai.png');
     background-size: contain;
@@ -69,4 +71,109 @@
     background-size: contain;
 }
 
+@media screen and (max-width: 991px) {
+    .contact-row {
+        padding-top: 18vh; 
+        height: 20vw;
+    }
 
+    .contact-col-right {
+        all: unset; 
+        position: relative;
+        display: flex;
+        width: 100%; 
+        align-items: center;
+        justify-content: center;
+        height: 20vw; 
+    }
+    
+    .contact-col-left {
+        all: unset; 
+        position: relative;
+        display: flex;
+        width: 100%; 
+        align-items: center;
+        justify-content: center;
+        height: 20vw; 
+    }
+
+    .contact-col-right > a {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-item {
+        height: 18vw; 
+        width: 18vw; 
+        border-radius: 20px;
+        transition: 0.2s ease;
+        margin: 6px; 
+    }
+    
+    .active-contact-item {
+        height: 21vw; 
+        width: 21vw; 
+        border-radius: 20px; 
+        transition: 0.2s ease;
+        margin: 6px; 
+    }
+    
+    .unactive-contact-item {
+        height: 17vw; 
+        width: 17vw; 
+        border-radius: 20px;
+        transition: 0.2s ease; 
+        margin: 6px; 
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact-row {
+        padding-top: 35vw; 
+        height: 40vw;
+    }
+
+    .contact-item {
+        height: 36vw; 
+        width: 36vw; 
+        border-radius: 20px;
+        transition: 0.2s ease;
+        margin: 6px; 
+    }
+    
+    .active-contact-item {
+        height: 42vw; 
+        width: 42vw; 
+        border-radius: 20px; 
+        transition: 0.2s ease;
+        margin: 6px; 
+    }
+    
+    .unactive-contact-item {
+        height: 34vw; 
+        width: 34vw; 
+        border-radius: 20px;
+        transition: 0.2s ease; 
+        margin: 6px; 
+    }
+
+    .contact-col-right {
+        all: unset; 
+        position: relative;
+        display: flex;
+        width: 100%; 
+        align-items: center;
+        justify-content: center;
+        height: 40vw; 
+    }
+    
+    .contact-col-left {
+        all: unset; 
+        position: relative;
+        display: flex;
+        width: 100%; 
+        align-items: center;
+        justify-content: center;
+        height: 40vw; 
+    }
+}

@@ -11,6 +11,14 @@
     align-items: center;
 }
 
+.photo-col-cover {
+    position: absolute;
+    width: 45vw; 
+    height: 40vh; 
+    background-color: #1a1a1a;
+    opacity: 0.5;
+}
+
 .row {
     width: 100vw; 
     margin: 0; 
@@ -28,18 +36,74 @@
     position: relative; 
     justify-content: center;
     align-items: center;
-    background-color: #1a1a1a; 
+    box-shadow: 0.2vw 0.2vw 10px #1a1a1a;
+    overflow: none; 
+    z-index: 500;
 }
 
 .photo-link {
     text-decoration: none;
-    color: #FAF9F6; 
+    color: white; 
+}
+
+
+.photo-category > h1 {
     font-family: 'Helvetica Neue Light'; 
-    font-size: 30px; 
+    font-size: 25px; 
+    position: relative;
 }
 
-.places {
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/3DDA54E0-C999-439A-B7E2-810BA40E4414DSC_4102.jpg?alt=media&token=d8bba563-3124-40e6-b20e-2fb3f9a934a8');
-    object-fit: contain; 
+.photos-col > img {
+    position: absolute; 
+    width: 45vw; 
+    height: 40vh; 
+    object-fit: cover;
 }
 
+@media screen and (max-width: 991px) {
+    .photo-category {
+        width: 80vw;
+        height: 60vw; 
+        margin: 0; 
+        padding: 0; 
+        display: flex;
+        position: relative; 
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0.2vw 0.2vw 10px #1a1a1a;
+        overflow: none; 
+        z-index: 500;
+    }
+
+    .photo-col-cover {
+        position: absolute;
+        width: 80vw; 
+        height: 60vw; 
+        background-color: #1a1a1a;
+        opacity: 0.5;
+    }
+
+    .photos-col > img {
+        position: absolute; 
+        width: 80vw; 
+        height: 60vw; 
+        object-fit: cover;
+    }
+
+    .photos-col {
+        display: flex;
+        position: relative; 
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px; 
+    }
+
+    .container-fluid {
+        margin: 0;
+        padding: 0; 
+    }
+
+    .photos-row {
+        padding: 0; 
+    }
+}
