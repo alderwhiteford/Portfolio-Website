@@ -1,6 +1,7 @@
 .container-fluid {
     padding-top: 6vh; 
     padding-bottom: 10vh; 
+    overflow: hidden;
 }
 
 .row {
