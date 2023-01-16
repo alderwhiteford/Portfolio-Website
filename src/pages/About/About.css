@@ -277,4 +277,18 @@
     .about-intro {
         font-size: 3.3vh; 
     }
+
+
+    .about-intro::before,
+    .about-intro::after {
+        all: unset; 
+    }
+    
+    .about-intro::before {
+        all: unset; 
+    }
+    
+    .about-intro::after {
+        all: unset; 
+    }
 }
