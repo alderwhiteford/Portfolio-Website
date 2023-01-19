@@ -25,7 +25,7 @@ function About() {
             </div>
             <div className="about-resume">
               <img className={resumeHovered === 'on' ? 'resume-hover' : ""} src='https://i.imgur.com/stFJBB5.png'></img>
-              <a href='https://drive.google.com/file/d/1NpieXRQBrUJTu1-QSnGK_2EOReVAZhSz/view?usp=sharing' target='_blank' className='link-hover' onMouseEnter={() => setResumeHover('on')} onMouseLeave={() => setResumeHover('off')}>
+              <a href='https://s3.amazonaws.com/symp.csm.usprod/northeastern/files/adb/adb8244d225c5d8191d89dd27aba52d2.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAID3RBESXBCESHUGA%2F20230119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230119T185845Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=47eabfa59d06a98a83e59e6cd96a47465a225bcc7eb2163e6801e21361f7a4c4' target='_blank' className='link-hover' onMouseEnter={() => setResumeHover('on')} onMouseLeave={() => setResumeHover('off')}>
                 Resume
               </a>  
             </div>
