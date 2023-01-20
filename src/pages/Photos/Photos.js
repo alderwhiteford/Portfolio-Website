@@ -7,7 +7,7 @@ function Photos() {
     <div className="container-fluid">
       <div className='row photos-row'>
         <div className='col col-lg-6 col-md-12 col-sm-12 col-12 gx-3 photos-col'>
-            <NavLink to='/photos/places' className='photo-link'>
+            <NavLink to='/Portfolio-Website/photos/places' className='photo-link'>
               <div className='photo-category places'>
                 <h1>Places</h1>
               </div>
@@ -16,7 +16,7 @@ function Photos() {
             <div className='photo-col-cover'></div>
         </div>
         <div className='col col-lg-6 col-md-12 col-sm-12 col-12 gx-3 photos-col'>
-          <NavLink to='/photos/people' className='photo-link'>
+          <NavLink to='/Portfolio-Website/photos/people' className='photo-link'>
             <div className='photo-category people'>
               <h1>People</h1>
             </div>
@@ -27,7 +27,7 @@ function Photos() {
       </div>
       <div className='row photos-row'>
         <div className='col col-lg-6 col-md-12 col-sm-12 col-12 gx-3 photos-col'>
-          <NavLink to='/photos/concerts' className='photo-link'>
+          <NavLink to='/Portfolio-Website/photos/concerts' className='photo-link'>
             <div className='photo-category concerts'>
               <h1>Concerts</h1>
             </div>
@@ -36,7 +36,7 @@ function Photos() {
           <div className='photo-col-cover'></div>
         </div>
         <div className='col col-lg-6 col-md-12 col-sm-12 col-12 gx-3 photos-col'>
-          <NavLink to='/photos/miscellaneous' className='photo-link'>
+          <NavLink to='/Portfolio-Website/photos/miscellaneous' className='photo-link'>
             <div className='photo-category miscellaneous'>
               <h1>Miscellaneous</h1>
             </div>

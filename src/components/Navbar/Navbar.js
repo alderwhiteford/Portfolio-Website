@@ -25,16 +25,16 @@ function Navbar() {
         <div className={navState ? "navbar-links collapse navbar-collapse show" : "navbar-links collapse navbar-collapse"} id="navbar">
             <ul className="navbar-nav">
                 <li className={activePage === "work" ? "nav-item link-hover activePage" : "nav-item link-hover"}>
-                    <NavLink className="nav-link" to="/work" onClick={() => setActivePage('work')}>work</NavLink>
+                    <NavLink className="nav-link" to="/Portfolio-Website/work" onClick={() => setActivePage('work')}>work</NavLink>
                 </li>
                 <li className={activePage === "projects" ? "nav-item link-hover activePage" : "nav-item link-hover"}>
-                    <NavLink className="nav-link" to="/projects" onClick={() => setActivePage('projects')}>projects</NavLink>
+                    <NavLink className="nav-link" to="/Portfolio-Website/projects" onClick={() => setActivePage('projects')}>projects</NavLink>
                 </li>
                 <li className={activePage === "photos" ? "nav-item link-hover activePage" : "nav-item link-hover"}>
-                    <NavLink className="nav-link" to="/photos" onClick={() => setActivePage('photos')}>photos</NavLink>
+                    <NavLink className="nav-link" to="/Portfolio-Website/photos" onClick={() => setActivePage('photos')}>photos</NavLink>
                 </li>
                 <li className={activePage === "contact" ? "nav-item link-hover activePage" : "nav-item link-hover"}>
-                    <NavLink className="nav-link" to="/contact" onClick={() => setActivePage('contact')}>contact</NavLink>
+                    <NavLink className="nav-link" to="/Portfolio-Website/contact" onClick={() => setActivePage('contact')}>contact</NavLink>
                 </li>
             </ul>
         </div>
