@@ -20,14 +20,6 @@ self.__precacheManifest = [
     "url": "/Portfolio-Website/static/js/runtime~main.9b6b17fa.js"
   },
   {
-    "revision": "0facaae97183b8fede52099930aefd8d",
-    "url": "/Portfolio-Website/static/media/HelveticaNeue Light.0facaae9.ttf"
-  },
-  {
-    "revision": "7f281199258d96e249a7fce4101006b9",
-    "url": "/Portfolio-Website/static/media/Helvetica Neu Bold.7f281199.ttf"
-  },
-  {
     "revision": "40878d85989fd728da121cf85281e981",
     "url": "/Portfolio-Website/static/media/SpaceMono-Bold.40878d85.ttf"
   },
@@ -36,19 +28,27 @@ self.__precacheManifest = [
     "url": "/Portfolio-Website/static/media/SpaceMono-Regular.96985f7a.ttf"
   },
   {
-    "revision": "0a13c540938b1b7dd3996b02ea568e5f",
-    "url": "/Portfolio-Website/static/media/HelveticaNeue Medium.0a13c540.ttf"
+    "revision": "7f281199258d96e249a7fce4101006b9",
+    "url": "/Portfolio-Website/static/media/Helvetica Neu Bold.7f281199.ttf"
   },
   {
     "revision": "4ff686ee78ff095848014f4283f67a41",
     "url": "/Portfolio-Website/static/media/HelveticaNeue BlackCond.4ff686ee.ttf"
   },
   {
+    "revision": "0facaae97183b8fede52099930aefd8d",
+    "url": "/Portfolio-Website/static/media/HelveticaNeue Light.0facaae9.ttf"
+  },
+  {
     "revision": "78c28465643a20597ce65eee037a7675",
     "url": "/Portfolio-Website/static/media/HelveticaNeue Thin.78c28465.ttf"
   },
   {
-    "revision": "8334a71bc626b0c52f033bd8cc46492c",
+    "revision": "0a13c540938b1b7dd3996b02ea568e5f",
+    "url": "/Portfolio-Website/static/media/HelveticaNeue Medium.0a13c540.ttf"
+  },
+  {
+    "revision": "abee2fb8b104c74807f945758b173841",
     "url": "/Portfolio-Website/index.html"
   }
 ];
