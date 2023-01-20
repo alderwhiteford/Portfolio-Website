@@ -19,17 +19,17 @@ const App = () => {
       <Navbar/>
       <main>
         <Routes>
-          <Route exact path="/work" element = { <Work />}/>
-          <Route exact path="/projects" element = { <Projects />}/>
-          <Route exact path="/photos" element = { <Photos />}/>
-          <Route exact path="/about" element = { <About />}/>
-          <Route exact path="/contact" element = { <Contact />}/>
-          <Route exact path="/upload-photos" element = { <UploadForm /> }/>
-          <Route exact path="/photos/people" element = { <PhotoPeople/> }/>
-          <Route exact path="/photos/places" element = { <PhotoPlaces /> }/>
-          <Route exact path="/photos/concerts" element = { <PhotoConcerts/> }/>
-          <Route exact path="/photos/miscellaneous" element = { <PhotoMiscellaneous/> }/>
-          <Route path="*" element={ <Navigate replace to="/about" /> } />
+          <Route exact path="Portfolio-Website/work" element = { <Work />}/>
+          <Route exact path="Portfolio-Website/projects" element = { <Projects />}/>
+          <Route exact path="Portfolio-Website/photos" element = { <Photos />}/>
+          <Route exact path="Portfolio-Website/about" element = { <About />}/>
+          <Route exact path="Portfolio-Website/contact" element = { <Contact />}/>
+          <Route exact path="Portfolio-Website/upload-photos" element = { <UploadForm /> }/>
+          <Route exact path="Portfolio-Website/photos/people" element = { <PhotoPeople/> }/>
+          <Route exact path="Portfolio-Website/photos/places" element = { <PhotoPlaces /> }/>
+          <Route exact path="Portfolio-Website/photos/concerts" element = { <PhotoConcerts/> }/>
+          <Route exact path="Portfolio-Website/photos/miscellaneous" element = { <PhotoMiscellaneous/> }/>
+          <Route path="*" element={ <Navigate replace to="Portfolio-Website/about" /> } />
         </Routes>
       </main>
     </Router>
