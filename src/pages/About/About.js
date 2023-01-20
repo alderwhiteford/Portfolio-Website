@@ -19,7 +19,7 @@ function About() {
             </div>
             <div className="about-contact">
               <img className={contactHovered === 'on' ? 'contact-hover' : ""}src="https://cdn-icons-png.flaticon.com/512/66/66831.png"></img>
-              <NavLink to={'/contact'} className='link-hover' onMouseEnter={() => setContactHover('on')} onMouseLeave={() => setContactHover('off')}>
+              <NavLink to={'/Portfolio-Website/contact'} className='link-hover' onMouseEnter={() => setContactHover('on')} onMouseLeave={() => setContactHover('off')}>
                 Get in touch
               </NavLink>          
             </div>
