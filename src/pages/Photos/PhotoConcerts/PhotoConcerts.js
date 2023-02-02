@@ -12,6 +12,7 @@ function PhotoConcerts() {
             <h1 className='places-title-1'>Photography</h1>
             <h1 className='places-title-2'>- Concerts</h1>
         </div>
+        <PhotoTwoOffsetRight photo1='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC07501.jpg?alt=media&token=91238816-580e-4caf-a204-02480d91d623' photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC07958.jpg?alt=media&token=ac8a558b-83f7-42bf-a635-3759e0857833'}></PhotoTwoOffsetRight>
         <PhotoTwoOffsetLeft photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC02774.jpg?alt=media&token=47579214-dfc0-4be9-80b2-528bf42ce899'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC02812.jpg?alt=media&token=dab67ea2-6223-44c2-8c92-a936bf5bbd90'}/>
         <PhotoTwoOffsetRight photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC01751.jpg?alt=media&token=e2761f09-83ac-48f1-8d91-a2e9dfaa5107'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC01583.jpg?alt=media&token=44923d1a-30e0-4fea-a3c9-9c3e315c1f41'}/>
         <PhotoTwoEven photo1={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC05132.jpg?alt=media&token=2dadef72-4bbb-490c-991b-9e3c0ae27208'} photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC04931.jpg?alt=media&token=0e7092b0-6c94-4a8e-ab7c-e4e7ae9cc344'}/>
