@@ -12,6 +12,9 @@ import PhotoPlaces from './pages/Photos/PhotoPlaces/PhotoPlaces'
 import PhotoPeople from './pages/Photos/PhotoPeople/PhotoPeople';
 import PhotoConcerts from './pages/Photos/PhotoConcerts/PhotoConcerts';
 import PhotoMiscellaneous from './pages/Photos/PhotoMiscellaneous/PhotoMiscellaneous';
+import MFS from './pages/Work/Experience/MFS';
+import HAN from './pages/Work/Experience/HAN';
+import Tastemakers from './pages/Work/Experience/Tastemakers';
 
 const App = () => {
   return (
@@ -20,6 +23,9 @@ const App = () => {
       <main>
         <Routes>
           <Route exact path="Portfolio-Website/work" element = { <Work />}/>
+          <Route exact path="Portfolio-Website/work/mfs" element = { <MFS /> }/>
+          <Route exact path="Portfolio-Website/work/han" element = { <HAN /> }/>
+          <Route exact path="Portfolio-Website/work/tastemakers" element = { <Tastemakers /> }/>
           <Route exact path="Portfolio-Website/projects" element = { <Projects />}/>
           <Route exact path="Portfolio-Website/photos" element = { <Photos />}/>
           <Route exact path="Portfolio-Website/about" element = { <About />}/>
