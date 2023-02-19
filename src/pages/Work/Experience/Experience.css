@@ -1,0 +1,10 @@
+.work-page {
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+}
+
+.center-image {
+    width: 60vw; 
+}
+
