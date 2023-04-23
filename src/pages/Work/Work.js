@@ -19,7 +19,7 @@ function Work() {
           <Header logo={'https://i.imgur.com/A990JUa.png'} background={'https://i.imgur.com/ytJ4gOE.jpg'} position={"Photographer"} dates={"Sep. 2022 - Present"} route={"/Portfolio-Website/work/tastemakers"}/>
         </div>
         <div className="col col-lg-6 col-md-12 gx-0 work-col">
-          <Header logo={'https://i.imgur.com/wMHQgj4.png'} background={'https://i.imgur.com/HqGsEsr.png'} position={"Public Relations Chair"} dates={"May 2022 - Present"} route={"/about"}/>
+          <Header logo={'https://i.imgur.com/wMHQgj4.png'} background={'https://i.imgur.com/HqGsEsr.png'} position={"Public Relations Chair"} dates={"May 2022 - Dec. 2022"} route={"/Portfolio-Website/work/delt"}/>
         </div>
       </div>
       <div className="row first-work">

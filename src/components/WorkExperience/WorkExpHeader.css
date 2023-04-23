@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0.2vw 0.2vw 7.5px #1a1a1a;
+    background-size: cover;
 }
 
 .work-exp-dark-cover {

@@ -8,3 +8,23 @@
     width: 60vw; 
 }
 
+.rush-possible-themes {
+    width: 100vw; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.delt-images {
+    width: 100vw; 
+    display: flex; 
+    justify-content: center;
+}
+
+.design-image {
+    height: 25vw; 
+}
+
+.design-image-large {
+    height: 37.5vw; 
+}
