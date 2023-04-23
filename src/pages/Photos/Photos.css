@@ -44,12 +44,20 @@
 .photo-link {
     text-decoration: none;
     color: white; 
+    font-size: 25px; 
+    transition: 0.25s ease
+}
+
+.photo-link:hover {
+    color: white; 
+    font-size: 27.5px; 
 }
 
 
 .photo-category > h1 {
+    
     font-family: 'Helvetica Neue Light'; 
-    font-size: 25px; 
+    font-size: inherit;
     position: relative;
 }
 
