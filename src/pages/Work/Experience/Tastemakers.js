@@ -22,7 +22,7 @@ function Tastemakers() {
       />
       <PhotoTwoOffsetRight
         photo1='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_Spence_Sutherland_Brighton_4web.jpg?alt=media&token=ffc2a488-bb40-4f17-b04c-94d9c7500eba' 
-        photo2='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC06956.JPG?alt=media&token=61197c44-20ae-47a1-b9ae-41dfbaffabae'
+        photo2='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC07122.JPG?alt=media&token=499b80f1-4d6c-4e9e-bfa4-29220455d2de'
       />
       <PhotoTwoOffsetLeft
         photo1='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_StephenSanchez_Brighton_8web.jpg?alt=media&token=7bc33c73-a969-4a74-9d67-cbda8579e56c'

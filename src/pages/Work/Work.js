@@ -38,12 +38,6 @@ function Work() {
           <Header logo={'https://i.imgur.com/8Owj29b.png'} background={'https://i.imgur.com/f9a5O4o.jpg'} position={"Founder"} dates={"Nov. 2017 - Nov. 2022"} route={"/about"}/>
         </div>
       </div>
-      <div className="row first-work">
-        <div className="col col-lg-6 col-md-12 gx-0 work-col">
-          <Header logo={'https://i.imgur.com/SRThYBo.png'} background={'https://i.imgur.com/DOPQtK6.jpg'} position={"Summer Intern"} dates={"Jul. 2021 - Sept. 2021"} route={"/about"}/>
-        </div>
-      </div>
-      <Footer/>
     </div>
   )
 }
