@@ -15,7 +15,7 @@ function Delt() {
                      description={'I had the privilege serving as the Public Relations Chairman of the Delta Tau Delta fraternity for the 2022 Summer/Fall semester. My role centered around helping grow and maintain the chapter’s social media, managing communication with other university organizations, and leading the design efforts for our Fall rush theme.'} 
                      website='https://www.instagram.com/deltnu/?hl=en'/>
       
-      <Project title="Fall 2022 Rush Theme" description=''/>
+      <Project title="Fall 2022 Rush Theme"/>
       <div className='rush-possible-themes'>
         <ItemDropDown title={"Formula 1"} 
                       colors={["#1f2464", "#6bc5dd", "#f4e5c8"]} 
@@ -30,8 +30,9 @@ function Delt() {
                       description={"The tee features renditions of the iconic Cactus Jack logo and a back graphic inspired by Travis Scott’s short-lived seltzer brand, Cacti."} 
                       images={['https://i.imgur.com/EmOZcr6.png', 'https://i.imgur.com/jBJRyiL.png']}/>
       </div>
-      <Project title="Final Design" 
-               description='After lots of deliberation amongst the chapter, we decided to go forward with the Formula 1 theme paired with an updated color pallette. Finalized marketing material for our instagram and in-person tabling was then prepared. I chose to use a vibrant orange as our primary color in the hopes that it would stand to PNM’s (Possible New Members) in comparison to other fraternity’s designs.'/>
+      <Project title="Final Design">
+        After lots of deliberation amongst the chapter, we decided to go forward with the Formula 1 theme paired with an updated color pallette. Finalized marketing material for our instagram and in-person tabling was then prepared. I chose to use a vibrant orange as our primary color in the hopes that it would stand to PNM’s (Possible New Members) in comparison to other fraternity’s designs.
+      </Project>
       
       <div className='delt-images' style={{paddingTop: 20}}>
         <img className='design-image' src='https://i.imgur.com/HldG38h.png'/>
