@@ -4,14 +4,30 @@ import WorkExpHeader from '../../../components/WorkExperience/WorkExpHeader'
 import Skill from '../../../components/Skill/Skill'
 import PhotoThreeEven from '../../Photos/PhotoStyling/PhotoThreeEven'
 import PhotoTwoOffsetRight from '../../Photos/PhotoStyling/PhotoTwoOffsetRight'
+import PhotoTwoOffsetLeft from '../../Photos/PhotoStyling/PhotoTwoOffsetLeft'
 
 function Tastemakers() {
   return (
     <div>
-        <WorkExpHeader logo={'https://i.imgur.com/A990JUa.png'} background={'https://i.imgur.com/lJYP7kn.png'} position={"Concert\nPhotographer"} dates={"Sep. 2022 - Present"} description={'Tastemakers Magazine exists to give Northeastern students a voice in the music industry and help members develop their craft. As a concert photographer, I am responsible for capturing and editing photos of artists at local venues for social media, the website, and magazine publication. All images are taken using a Sony A7iii.'} website='https://www.tastemakersmag.com/'/>
-        <Project title={'Most Recent Concert - Spencer Sutherland 4/15/23 @ Brighton Music Hall'}/>
-        <PhotoThreeEven photo1='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_Spence_Sutherland_Brighton_4web.jpg?alt=media&token=ffc2a488-bb40-4f17-b04c-94d9c7500eba' photo2={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_Spence_Sutherland_Brighton_5web.jpg?alt=media&token=e2ee62bf-7a06-48ab-ac06-3f67ba99b95d'} photo3={'https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_Spence_Sutherland_Brighton_10web.jpg?alt=media&token=9e154dcd-8064-4e58-8db8-7247ec3bda4e'}></PhotoThreeEven>
-        <PhotoTwoOffsetRight photo1='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_Spence_Sutherland_Brighton_18web.jpg?alt=media&token=2faf01cd-858b-4017-bc4f-4e1d08a7289b' photo2='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_Spence_Sutherland_Brighton_7web.jpg?alt=media&token=1de23899-dbf8-4c8f-857a-302ee7b0bc6f'/>
+      <WorkExpHeader logo={'https://i.imgur.com/A990JUa.png'} background={'https://i.imgur.com/lJYP7kn.png'} position={"Concert\nPhotographer"} dates={"Sep. 2022 - Present"} description={'Tastemakers Magazine exists to give Northeastern students a voice in the music industry and help members develop their craft. As a concert photographer, I am responsible for capturing and editing photos of artists at local venues for social media, the website, and magazine publication. All images are taken using a Sony A7iii.'} website='https://www.tastemakersmag.com/'/>
+      <Project title={'Recent Concert Photos (2023)'}/>
+      <PhotoThreeEven 
+        photo1='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC03747.JPG?alt=media&token=77e3dd1e-7221-417b-8734-8257935b6e99' 
+        photo2='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC09763.JPG?alt=media&token=2bc1cda4-640b-4801-9d08-d0bdd06be715'
+        photo3='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC09478.JPG?alt=media&token=df859251-e32d-4483-a31b-f671cb46c180'
+      />
+      <PhotoTwoOffsetLeft
+        photo1='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_All_Time_Low_MGM_print2.JPG?alt=media&token=a7f7e46f-43ef-4b22-aa5c-97a57dc408a1'
+        photo2='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC02912-Enhanced-NR-3.JPG?alt=media&token=e7b0116f-ce01-4675-8c9c-9404ced285a4'
+      />
+      <PhotoTwoOffsetRight
+        photo1='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_Spence_Sutherland_Brighton_4web.jpg?alt=media&token=ffc2a488-bb40-4f17-b04c-94d9c7500eba' 
+        photo2='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/DSC06956.JPG?alt=media&token=61197c44-20ae-47a1-b9ae-41dfbaffabae'
+      />
+      <PhotoTwoOffsetLeft
+        photo1='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_StephenSanchez_Brighton_8web.jpg?alt=media&token=7bc33c73-a969-4a74-9d67-cbda8579e56c'
+        photo2='https://firebasestorage.googleapis.com/v0/b/portfolio-website-561af.appspot.com/o/AlderWhiteford(Computer_Science_%26_Finance)_QuartersOfChangeWeb1.jpg?alt=media&token=ae0e89e8-afcb-4cfb-b889-23d4693f603c'
+      />
     </div>
   )
 }
