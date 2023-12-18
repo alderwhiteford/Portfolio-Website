@@ -24,7 +24,7 @@ function Work() {
       </div>
       <div className="row first-work">
         <div className="col col-lg-6 col-md-12 gx-0 work-col">
-          <Header logo={'https://i.imgur.com/fVGgwei.png'} background={'https://i.imgur.com/wnomP3A.png'} position={"Co-Founder"} dates={"Jan. 2022 - Oct. 2022"} route={"/about"}/>
+          <Header logo={'https://i.imgur.com/fVGgwei.png'} background={'https://i.imgur.com/wnomP3A.png'} position={"Co-Founder"} dates={"Jan. 2022 - Oct. 2022"} route={"/Portfolio-Website/work/sewn"}/>
         </div>
         <div className="col col-lg-6 col-md-12 gx-0 work-col">
           <Header logo={'https://i.imgur.com/pMfjoCq.png'} background={'https://i.imgur.com/2EoWXS3.jpg'} position={"Peer Tutor"} dates={"Jan. 2022 - May. 2022"} route={"/about"}/>

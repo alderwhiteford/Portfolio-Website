@@ -16,6 +16,7 @@ import MFS from './pages/Work/Experience/MFS';
 import HAN from './pages/Work/Experience/HAN';
 import Tastemakers from './pages/Work/Experience/Tastemakers';
 import Delt from './pages/Work/Experience/Delt';
+import Sewn from './pages/Work/Experience/Sewn';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route exact path="Portfolio-Website/work/han" element = { <HAN /> }/>
           <Route exact path="Portfolio-Website/work/tastemakers" element = { <Tastemakers /> }/>
           <Route exact path="Portfolio-Website/work/delt" element = { <Delt /> }/>
+          <Route exact path="Portfolio-Website/work/sewn" element = { <Sewn /> }/>
           <Route exact path="Portfolio-Website/projects" element = { <Projects />}/>
           <Route exact path="Portfolio-Website/photos" element = { <Photos />}/>
           <Route exact path="Portfolio-Website/about" element = { <About />}/>

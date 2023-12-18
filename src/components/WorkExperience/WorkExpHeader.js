@@ -7,7 +7,7 @@ function WorkExpHeader({logo, background, position, dates, description, website}
     <div class='work-exp-header'>
         <div class='work-exp-banner' style={{backgroundImage: `url(${background})`}}>
             <div class='work-exp-dark-cover'/>
-            <a href={website} target='_blank'>
+            <a href={website} target={website && '_blank'}>
                 <img class='work-exp-logo' src={logo} alt=''></img>
             </a>
             </div>
